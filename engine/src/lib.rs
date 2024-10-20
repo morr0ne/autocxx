@@ -811,5 +811,5 @@ fn proc_macro_span_to_miette_span(span: &proc_macro2::Span) -> SourceSpan {
         Ok((start, end.saturating_sub(start)))
     })();
     let (start, end) = r.unwrap_or((0, 0));
-    SourceSpan::new(SourceOffset::from(start), SourceOffset::from(end))
+    SourceSpan::new(SourceOffset::from(start), end)
 }

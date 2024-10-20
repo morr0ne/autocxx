@@ -22,7 +22,7 @@ categories = ["development-tools::ffi", "api-bindings"]
 proc-macro2 = "1.0.11"
 trybuild = "1.0.53"
 test-log = "0.2.2"
-env_logger = "0.9.0"
+env_logger = "0.11.5"
 rust_info = "0.3.1"
 cc = "1.0"
 quote = "1.0"
@@ -36,15 +36,15 @@ autocxx-engine = { version = "=0.27.0", path = "../engine", features = [
 moveit = { version = "0.6", features = [ "cxx" ] }
 link-cplusplus = "1.0"
 tempfile = "3.4"
-indoc = "1.0"
+indoc = "2.0"
 log = "0.4"
 cxx = "1.0.78"
-itertools = "0.10"
+itertools = "0.13"
 rustversion = "1.0"
 static_assertions = "1.1.0"
 
 [dependencies.syn]
-version = "1.0.39"
+version = "2.0.81"
 features = ["full"]
 #features = [ "full", "extra-traits" ]
 
